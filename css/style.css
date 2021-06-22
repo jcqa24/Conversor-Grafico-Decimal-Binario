@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.decimal{
+    width: 4em;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 25px 100px;
+
+    
+}
+.item{
+    
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bit{
+    height: 2em;
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}

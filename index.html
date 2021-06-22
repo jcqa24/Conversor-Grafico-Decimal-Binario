@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CGNDTB</title>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	
+	<div class="container">
+			<h1> Conversor Grafico de números decimales a binarios </h1>
+	</div>
+
+	<div class="container">
+		<label for="decimal" id="labeldecimal">Numero decimal: 0</label>
+		<input type="range" id="decimal" name="decimal" min="0" max="255" step="1" onchange="Converter(this.value)" value="0"> 
+	</div>
+
+
+
+		<div class="container">
+			<div class="row">
+				<div class="item" id="0">0</div>
+				<div class="item" id="1">0</div>
+				<div class="item" id="2">0</div>
+				<div class="item" id="3">0</div>
+				<div class="item" id="4">0</div>
+				<div class="item" id="5">0</div>
+				<div class="item" id="6">0</div>
+				<div class="item" id="7">0</div>
+				
+				<div class="item bit" id="0b"></div>
+				<div class="item bit" id="1b"></div>
+				<div class="item bit" id="2b"></div>
+				<div class="item bit" id="3b"></div>
+				<div class="item bit" id="4b"></div>
+				<div class="item bit" id="5b"></div>
+				<div class="item bit" id="6b"></div>
+				<div class="item bit" id="7b"></div>
+
+
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+
+
+
+</html>
