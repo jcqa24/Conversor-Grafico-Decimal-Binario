@@ -26,6 +26,8 @@ function Converter(decimal) {
 
 
     for(var i = 0; i < 8; i++){
+        $("#lb").empty();
+        $("#lb").append(Binario);
         $("#"+i).empty();
         $("#"+i).append(Binario[i]);
         if(Binario[i] == 0){
